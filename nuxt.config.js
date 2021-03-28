@@ -1,9 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "vue-furniture-shop",
+    title: "Мебельный магазин",
     htmlAttrs: {
-      lang: "en",
+      lang: "ru",
     },
     meta: [
       { charset: "utf-8" },
@@ -11,10 +11,13 @@ export default {
       { hid: "description", name: "description", content: "" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: [
+    '@/assets/normalize.css'
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],

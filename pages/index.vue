@@ -1,28 +1,9 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">vue-furniture-shop</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <main class="main">
+    <section class="adds">
+      
+    </section>
+  </main>
 </template>
 
 <script>
@@ -37,15 +18,21 @@ export default {
 
 <style>
 .container {
+  max-width: 1440px;
   margin: 0 auto;
+  /* background: url('~static/images/bgd.jpeg') center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding-top: 80px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap; */
 }
 
-.title {
+/* .title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
@@ -61,9 +48,6 @@ export default {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
-}
+} */
 
-.links {
-  padding-top: 15px;
-}
 </style>
